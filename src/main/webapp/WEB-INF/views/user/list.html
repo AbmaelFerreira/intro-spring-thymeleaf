@@ -63,8 +63,8 @@
                     <tr th:each="u : ${usuarios}">
 
                         <td th:text="${u.id}">1</td>
-                        <td th:text="${u.nome}">2</td>
-                        <td th:text="${u.dtNascimento}">3</td>
+                        <td th:text="${#strings.concat(u.nome,' ',u.sobrenome)}">2</td>
+                        <td th:text="${#temporals.format(u.dtNascimento,'dd/MM/yyyy')}">3</td>
                         <td th:text="${u.sexo.desc}">4</td>
                         <td>
                             <a class="btn btn-info" href="/intro-spring-thymeleaf/usuario/update/1">Editar</a>

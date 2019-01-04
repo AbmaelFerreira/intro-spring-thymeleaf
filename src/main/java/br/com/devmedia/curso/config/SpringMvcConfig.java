@@ -30,8 +30,7 @@ public class SpringMvcConfig extends WebMvcConfigurerAdapter implements Applicat
 
     @Bean
     public SpringResourceTemplateResolver templateResolver(){
-        SpringResourceTemplateResolver templateResolver = new
-                SpringResourceTemplateResolver();
+        SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();
         templateResolver.setApplicationContext(applicationContext);
         templateResolver.setPrefix("/WEB-INF/views/");
         templateResolver.setSuffix(".html");
