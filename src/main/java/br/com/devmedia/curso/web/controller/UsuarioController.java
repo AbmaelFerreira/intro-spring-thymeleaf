@@ -17,7 +17,7 @@ import javax.validation.Valid;
 @RequestMapping("usuario")
 public class UsuarioController {
 
-    @Autowired
+    @Autowired,,,,,,,,,,,,
     private UsuarioDao dao;
 
     @GetMapping("/todos")
