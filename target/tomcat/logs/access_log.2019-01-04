@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:00:29:24 -0300] "GET /intro-spring-thymeleaf/usuario/todos HTTP/1.1" 200 5406 http-bio-9090-exec-1 3381
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:00:29:29 -0300] "GET /intro-spring-thymeleaf/static/css/bootstrap.min.css HTTP/1.1" 200 160406 http-bio-9090-exec-3 284
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:00:29:32 -0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9090-exec-4 0
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:00:29:57 -0300] "GET /intro-spring-thymeleaf/usuario/nome?nome=Patricia HTTP/1.1" 200 3385 http-bio-9090-exec-6 407
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:00:30:04 -0300] "GET /intro-spring-thymeleaf/usuario/sexo?tipoSexo=F HTTP/1.1" 200 4398 http-bio-9090-exec-9 254
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:00:30:14 -0300] "GET /intro-spring-thymeleaf/usuario/cadastro HTTP/1.1" 200 2360 http-bio-9090-exec-1 110
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:00:30:45 -0300] "POST /intro-spring-thymeleaf/usuario/save HTTP/1.1" 302 - http-bio-9090-exec-5 2586
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:00:30:45 -0300] "GET /intro-spring-thymeleaf/usuario/todos;jsessionid=F36357ABCF8F88AB05C12208A54B0494 HTTP/1.1" 200 5913 http-bio-9090-exec-5 154
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:00:30:53 -0300] "GET /intro-spring-thymeleaf/usuario/delete/1 HTTP/1.1" 302 - http-bio-9090-exec-2 616
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:00:30:54 -0300] "GET /intro-spring-thymeleaf/usuario/todos HTTP/1.1" 200 5410 http-bio-9090-exec-2 27
+0:0:0:0:0:0:0:1 - - [04/Jan/2019:00:57:44 -0300] "GET /intro-spring-thymeleaf/usuario/todos HTTP/1.1" 200 5473 http-bio-9090-exec-1 2300
