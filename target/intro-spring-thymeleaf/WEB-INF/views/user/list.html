@@ -3,6 +3,7 @@
       xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cadastro de Usuário</title>
     <link type="text/css" rel="stylesheet" href="/intro-spring-thymeleaf/static/css/bootstrap.min.css"/>
 </head>
@@ -70,7 +71,7 @@
                         <td th:text="${#temporals.format(u.dtNascimento,'dd/MM/yyyy')}">3</td>
                         <td th:text="${u.sexo.desc}">4</td>
                         <td>
-                            <a class="btn btn-info" href="/intro-spring-thymeleaf/usuario/update/1">Editar</a>
+                            <a class="btn btn-info" th:href="@{/usuario/update/{id}(id=${u.id})}" th:text="Editar">Editar</a>
                             <a class="btn btn-danger" th:href="@{/usuario/delete/{id}(id=${u.id})}" th:text="Deletar">Excluir</a>
                         </td>
                     </tr>
