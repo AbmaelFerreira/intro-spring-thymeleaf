@@ -17,11 +17,11 @@ public class Usuario implements Serializable {
     private Long id;
 
     @Column(nullable = false, length = 50)
-    @NotBlank @Size(min = 3, max = 50)
+    @NotBlank(message = "Favor informar um nome") @Size(min = 3, max = 50, message = "O nome deve se entre 5  e 50")
     private String nome;
 
     @Column(nullable = false, length = 50)
-    @NotBlank @Size(min = 3, max = 50)
+    @NotBlank(message = "Favor informar um sobre nome") @Size(min = 3, max = 50, message = "O sobrenome deve se entre 5  e 50")
     private String sobrenome;
 
     @Column(name = "data_nascimento", columnDefinition = "DATE")
