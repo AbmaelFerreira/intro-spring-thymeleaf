@@ -7,11 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a123473-e2ab-4112-b7b9-dfa2a9ba66c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragmentos/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragmentos/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devmedia/curso/web/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devmedia/curso/web/controller/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/intro-spring-thymeleaf/WEB-INF/views/user/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/intro-spring-thymeleaf/WEB-INF/views/user/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/intro-spring-thymeleaf/WEB-INF/views/user/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/intro-spring-thymeleaf/WEB-INF/views/user/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,12 +24,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+            <state relative-caret-position="372">
+              <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devmedia/curso/web/controller/UsuarioController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1056">
+              <caret line="14" lean-forward="true" selection-end-line="106" />
             </state>
           </provider>
         </entry>
@@ -34,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1203">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="176">
+              <caret line="14" column="74" selection-end-line="65" selection-end-column="7" />
               <folding>
                 <element signature="e#2#17#0" expanded="true" />
               </folding>
@@ -46,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/add.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="67">
+              <caret line="17" column="36" selection-end-line="40" selection-end-column="7" />
               <folding>
                 <element signature="e#2#17#0" expanded="true" />
               </folding>
@@ -55,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragmentos/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state>
+              <caret selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -67,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragmentos/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state>
+              <caret lean-forward="true" selection-end-line="3" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -90,14 +102,14 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/devmedia/curso/config/SpringMvcConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/devmedia/curso/web/controller/UsuarioController.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/devmedia/curso/domain/Usuario.java" />
         <option value="$PROJECT_DIR$/src/main/resources/messages.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/add.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/list.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragmentos/footer.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragmentos/header.html" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/devmedia/curso/web/controller/UsuarioController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/list.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/add.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout.html" />
       </list>
     </option>
   </component>
@@ -116,10 +128,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1357" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="1356" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -127,81 +139,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="intro-spring-thymeleaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro-spring-thymeleaf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro-spring-thymeleaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro-spring-thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro-spring-thymeleaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro-spring-thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro-spring-thymeleaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro-spring-thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro-spring-thymeleaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro-spring-thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro-spring-thymeleaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro-spring-thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro-spring-thymeleaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro-spring-thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="fragmentos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="intro-spring-thymeleaf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="intro-spring-thymeleaf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548546137557" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548546772073" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -399,7 +346,11 @@
       <workItem from="1547954938945" duration="3534000" />
       <workItem from="1548382941850" duration="983000" />
       <workItem from="1548461458294" duration="1528000" />
-      <workItem from="1548544662257" duration="1358000" />
+      <workItem from="1548544662257" duration="2102000" />
+      <workItem from="1548720176742" duration="3733000" />
+      <workItem from="1548773189021" duration="1645000" />
+      <workItem from="1548858340732" duration="1143000" />
+      <workItem from="1548893439804" duration="4973000" />
     </task>
     <task id="LOCAL-00001" summary="Retirando o Botão de Produto">
       <created>1546405013080</created>
@@ -478,11 +429,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548463118988</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="16 Trabalhando com layout para fragmentos">
+      <created>1548546177001</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1548546177001</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41512000" />
+    <option name="totallyTimeSpent" value="53750000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -495,20 +453,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1359" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.78088576" visible="true" weight="0.25704697" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7704348" visible="true" weight="0.13892618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.21911421" side_tool="true" visible="true" weight="0.25704697" />
+      <window_info id="Web" order="7" sideWeight="0.22956522" side_tool="true" weight="0.13892618" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.39235127" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.38101983" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -532,6 +489,42 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7704348" weight="0.13892618" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.22956522" side_tool="true" weight="0.13892618" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.3286119" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.38101983" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.15155807" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.058919802" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.3286119" />
+      <window_info anchor="bottom" id="TODO" order="15" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3290469" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -598,7 +591,8 @@
     <MESSAGE value="13 Exibindo mensagens de validação do back-end" />
     <MESSAGE value="14 Nomeando componentes com mensagens armazenadas em arquivo" />
     <MESSAGE value="15 Fragmentando o rodapé das páginas" />
-    <option name="LAST_COMMIT_MESSAGE" value="15 Fragmentando o rodapé das páginas" />
+    <MESSAGE value="16 Trabalhando com layout para fragmentos" />
+    <option name="LAST_COMMIT_MESSAGE" value="16 Trabalhando com layout para fragmentos" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -644,24 +638,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devmedia/curso/web/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devmedia/curso/domain/Usuario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devmedia/curso/web/controller/UsuarioController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -672,44 +652,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devmedia/curso/web/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragmentos/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1203">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#2#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="e#2#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+        <state>
+          <caret lean-forward="true" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/fragmentos/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state>
+          <caret selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="17" column="36" selection-end-line="40" selection-end-column="7" />
+          <folding>
+            <element signature="e#2#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/user/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="74" selection-end-line="65" selection-end-column="7" />
+          <folding>
+            <element signature="e#2#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devmedia/curso/web/controller/UsuarioController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1056">
+          <caret line="14" lean-forward="true" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
         </state>
       </provider>
     </entry>

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.thymeleaf.org">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,17 +9,22 @@
 <body>
 
     <div th:replace="fragmentos/header :: cabecalho">
+
         <span>Carrega  fragmento do cabeçalho</span>
+
     </div>
 
 
-    <div>
+    <div class="container" th:include="${conteudo} :: corpo">
+
         <span>O conteudo sera inserido a qui</span>
+
     </div>
+
 
     <footer class="footer" th:insert="fragmentos/footer">
 
-            <span>&copyO rodape sera inserido aqui</span>
+        <span>&copyO rodape sera inserido aqui</span>
 
     </footer>
 
